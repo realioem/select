@@ -1,0 +1,25 @@
+#header{
+	position: relative;
+	background-color: #052139;
+	overflow: hidden;
+	}
+
+#menubar {  
+	background-color: #ff9400;
+	float: left;
+	width: 15%;    
+    font-size: 20px;
+}
+
+#menulink {
+ display: none;
+}
+
+a {
+    color: white;
+    text-decoration:none;
+}
+li{list-style-type: none;}
+ul ul{
+     display: none;
+}
