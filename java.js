@@ -1,15 +1,16 @@
 function showOrHide(e) {
 	if (document.getElementById) {
-		var abra = document.getElementById(e).style;
-		if (abra.display == "block") {
-			abra.display = "none";
-		} 
-		else {
-  			 abra.display = "block";
-  		} 
- 	 return false;
+		var menu = document.getElementById(e).style;
+		var abar = document.getElementById(e);
+		if (abar.id == "menulink") {
+			menu.display = "block";
+		}
+		else{
+			menu.display = "none";
+		}
+	 return false;
   } 
   	else {
   		return true;
  }
-}
+	}

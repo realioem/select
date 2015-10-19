@@ -1,25 +1,40 @@
 #header{
 	position: relative;
 	background-color: #052139;
-	overflow: hidden;
+	height: 130px;
 	}
-
 #menubar {  
+	padding-top: 0.7%;
 	background-color: #ff9400;
 	float: left;
-	width: 15%;    
-    font-size: 20px;
+	width: 20%; 
+	line-height: 3em;   
 }
 
-#menulink {
- display: none;
+
+@font-face {
+    font-family: db_fongnam_xbold;
+    src: url('db_fongnam_x_bd-webfont.eot');
+    src: url('db_fongnam_x_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('db_fongnam_x_bd-webfont.woff2') format('woff2'),
+         url('db_fongnam_x_bd-webfont.woff') format('woff'),
+         url('db_fongnam_x_bd-webfont.ttf') format('truetype'),
+         url('db_fongnam_x_bd-webfont.svg#db_fongnam_xbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 a {
+	font-family: db_fongnam_xbold;	
     color: white;
     text-decoration:none;
+    font-size: 30px;
+}
+a.light{ 
+	font-weight: lighter;
+	font-size: 20px;
 }
 li{list-style-type: none;}
-ul ul{
-     display: none;
-}
+li ul{line-height: 2em;   }
+ul ul{display: none;}
